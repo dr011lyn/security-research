@@ -33,25 +33,18 @@
    The path was intentionally non-guessable but was inadvertently published in the client-facing code.
 
   ---
+  
   Exploitation
+                                                                                                                           
+  1. Opened the lab and browsed the application
+  2. Checked `robots.txt` — no findings                                                                                    
+  3. Inspected page source, searched for `admin`
+  4. Discovered hardcoded `admin href` with random path segment
+  5. Appended the path to the base URL and navigated directly
+  6. Admin panel loaded with no authentication prompt
+  7. Used admin functionality to delete users — lab solved
 
-  ┌──────┬──────────────────────────────────────────────────────────┐
-  │ Step │                          Action                          │
-  ├──────┼──────────────────────────────────────────────────────────┤
-  │ 1    │ Opened the lab and browsed the application               │
-  ├──────┼──────────────────────────────────────────────────────────┤
-  │ 2    │ Checked robots.txt — no findings                         │
-  ├──────┼──────────────────────────────────────────────────────────┤
-  │ 3    │ Inspected page source, searched for admin                │
-  ├──────┼──────────────────────────────────────────────────────────┤
-  │ 4    │ Discovered hardcoded admin href with random path segment │
-  ├──────┼──────────────────────────────────────────────────────────┤
-  │ 5    │ Appended the path to the base URL and navigated directly │
-  ├──────┼──────────────────────────────────────────────────────────┤
-  │ 6    │ Admin panel loaded with no authentication prompt         │
-  ├──────┼──────────────────────────────────────────────────────────┤
-  │ 7    │ Used admin functionality to delete users — lab solved    │
-  └──────┴──────────────────────────────────────────────────────────┘
+  **Result:** Full admin panel access achieved. User deletion confirmed, lab solved.
 
   Proof of Success: Full admin panel access achieved. User deletion functionality executed successfully, confirming
   unrestricted administrative access.
