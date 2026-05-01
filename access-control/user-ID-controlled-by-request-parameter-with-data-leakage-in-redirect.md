@@ -4,8 +4,7 @@
   Category: Broken Access Control — IDOR with Data Leakage in Redirect                                                     
   Difficulty: Low                                                                                                          
   Date Solved: 01 May 2026                                                                                                 
-  Lab URL: https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-data-leakag
-  e-in-redirect
+  Lab URL: https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-data-leakage-in-redirect
 
   ---
   Vulnerability Summary
