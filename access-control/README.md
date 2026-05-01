@@ -20,11 +20,20 @@
 
   ## Lab Progress
 
-  | # | Lab | Difficulty | Status | Date |
+  | # | Lab | Difficulty | Status | Date |                                                                                 
   |---|-----|------------|--------|------|
-  | 1 | [Unprotected admin functionality](lab-01-unprotected-admin-robots-txt.md) | Low | ✅ Solved | 26-04-2026 |
-  | 2 | [Unprotected admin functionality with unpredictable URL](lab-02-unprotected-admin-unpredictable-url.md) | Low | ✅
-  Solved | 27-04-2026 |
+  | 1 | Unprotected admin functionality | Low | ✅ Solved | 26-04-2026 |                                                   
+  | 2 | Unprotected admin - unpredictable URL | Low | ✅ Solved | 27-04-2026 |
+  | 3 | User role - request parameter | Medium | ✅ Solved | 28-04-2026 |
+  | 4 | User role - modified in profile | Medium | ✅ Solved | 28-04-2026 |
+  | 5 | URL-based access control bypass | High | ✅ Solved | 28-04-2026 |
+  | 6 | Method-based access control bypass | High | ✅ Solved | 30-04-2026 |
+  | 7 | User ID - request parameter | Low | ✅ Solved | 30-04-2026 |
+  | 8 | User ID - unpredictable IDs | Medium | ✅ Solved | 30-04-2026 |
+  | 9 | User ID - data leakage in redirect | Low | ✅ Solved | 01-05-2026 |
+  | 10 | User ID - password disclosure | Medium | ✅ Solved | 01-05-2026 |
+  | 11 | Multi-step - missing access control | Medium | ✅ Solved | 01-05-2026 |
+  | 12 | Referer-based access control | Medium | ✅ Solved | 01-05-2026 |
 
   ---
 
